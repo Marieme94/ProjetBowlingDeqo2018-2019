@@ -4,7 +4,14 @@ public class App {
 
     public static void main( String[] args )
     {
-        /* todo */
+
+
+        BowlingClass bowlingClass;
+        bowlingClass = new BowlingClass();
+
+
+
+        System.out.println(bowlingClass.score());
 
 
     }
